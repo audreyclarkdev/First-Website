@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Intro to Front End Foundations - Final Project</title>
+        <!--Bootstrap CDN Theme-->
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lumen/bootstrap.min.css" 
+        integrity="sha384-GzaBcW6yPIfhF+6VpKMjxbTx6tvR/yRd/yJub90CqoIn2Tz4rRXlSpTFYMKHCifX" 
+        crossorigin="anonymous">
+        <!--My custom CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--AJAX/jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-4">Audrey Clark</h1>
+            <p class="lead">Full Stack Developer</p>
+            <div class="container">
+                <div class="row">
+                    <img src="images/audrey.jpg" class="col" style="width: 22em; height: 40em;" />
+                    
+                    <div style="margin-top: 15px" class="col-6">
+                        <ul class="list">
+                            <li>Fluent in HTML, CSS, JavaScript, and Java</li>
+                            <li>Competent in Angular, NodeJS, and React</li>
+                            <li>Enjoy building REST APIs</li>
+                            <li>Best Friends with Elon Musk and Mark Zuckerberg</li>
+                            <li>Experience with AWS and VMware</li>
+                            <li>Former Information Technology Technician</li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            <h5>Social Media Links:</h5>
+            <a href="https://github.com/amazonwarrior23">
+                <img class="icon" src="icons/github.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/audrey-hodel">
+                <img class="icon" src="icons/linkedin.png">
+            </a>
+            <a href="https://twitter.com/amazon__warrior">
+                <img class="icon" src="icons/twitter.png">
+            </a>
+            <a href="https://www.instagram.com/amazonwarrior23/">
+                <img class="icon" src="icons/instagram.png">
+            </a>
+            <a style="font-size: 0.73em;" href="https://www.facebook.com/audrey.hodel/">
+                <img class="icon" src="icons/facebook3.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCtWOfnjv81bJX_tEdLoVCcQ">
+                <img class="icon" src="icons/youtube.png">
+            </a>  
+        </div>
+        
+
+        <button type="button" class="btn btn-outline-info btn-lg" onclick="showRepositories()">Get my Repositories!</button>
+        <ul id="repositories" style="font-size: 24px; margin-left: 50px; margin-bottom: 50px;">
+            
+        </ul>
+
+        <!--Sticky footer-->
+        <footer class="footer">
+            <div class="container" style="text-align: center;">
+                <a href="https://gmail.com">
+                    <img src="icons/email.png" class="img-responsive">
+                            Contact me: amazon.audrey@gmail.com
+                </a>
+            </div>
+        </footer>
+
+        <!--Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        
+        
+        <!--my custom JS-->
+        <script src="script.js"></script>
+    </body>
+</html>
